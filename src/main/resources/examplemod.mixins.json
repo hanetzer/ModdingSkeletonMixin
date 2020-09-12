@@ -5,7 +5,8 @@
   "refmap": "examplemod.refmap.json",
   "mixins": [
     "ExampleMixin$RunOneMixin",
-    "ExampleMixin$TryAllMixin"
+    "ExampleMixin$TryAllMixin",
+    "ExampleMixinTwo"
   ],
   "injectors": {
     "defaultRequire": 1
