@@ -4,9 +4,8 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "examplemod.refmap.json",
   "mixins": [
-  ],
-  "client":[
-    "ExampleMixin"
+    "ExampleMixin$RunOneMixin",
+    "ExampleMixin$TryAllMixin"
   ],
   "injectors": {
     "defaultRequire": 1
